@@ -75,8 +75,8 @@ const Footer = () => {
             </SocialLogo>
 
             <WebsiteRights>
-              ABC BANK    {new Date().getFullYear()}
-                           All rights reserved.
+              ABC BANK {new Date().getFullYear()} <br />
+              All rights reserved.
             </WebsiteRights>
             <SocialIcons>
               <SocialIconLink

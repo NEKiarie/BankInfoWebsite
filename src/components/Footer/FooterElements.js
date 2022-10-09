@@ -69,7 +69,7 @@ export const FooterLink = styled(Link)`
 `;
 
 export const SocialMedia = styled.section`
-  max-width: 1000px;
+  max-width: 1100px;
   width: 100%;
 `;
 
@@ -90,7 +90,7 @@ export const SocialLogo = styled(Link)`
   justify-self: flex-start;
   cursor: pointer;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   display: flex;
   align-items: center;
   margin-bottom: 16px;
