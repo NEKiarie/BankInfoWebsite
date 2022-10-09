@@ -71,6 +71,7 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to="/" onClick={toggleHome}>
+              {" "}
               ABC BANK
             </SocialLogo>
 
