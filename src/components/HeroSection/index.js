@@ -1,6 +1,5 @@
 import React, { useState} from "react";
 import Video from "../../videos/production.mp4";
-//import { animateScroll as scroll } from "react-scroll";
 import { Button } from '../ButtonElements'
 import {
   HeroContainer,
@@ -21,9 +20,7 @@ const HeroSection = () => {
   const onHover = () => {
     setHover(!hover)
   }
-  //  const toggle = () => {
-  //    scroll.scrollIntoView(); 
-  //  };
+  
 
 
   return (
