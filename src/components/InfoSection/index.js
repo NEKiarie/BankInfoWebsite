@@ -30,7 +30,7 @@ const InfoSection = ({
   primary,
   dark,
   dark2,
-}) => {
+  }) => {
   return (
     <>
       <InfoContainer lightBg={lightBg} id={id}>
