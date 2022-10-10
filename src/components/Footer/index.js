@@ -17,8 +17,8 @@ import {
   FooterLinksContainer,
   SocialMedia,
   SocialMediaWrap,
-  SocialLogo,
-  WebsiteRights,
+  //SocialLogo,
+  //WebsiteRights,
   SocialIcons,
   SocialIconLink,
 } from "./FooterElements";
@@ -70,14 +70,15 @@ const Footer = () => {
 
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to="/" onClick={toggleHome}>
+            onClick={toggleHome}
+            {/* {\*<SocialLogo to="/" >
               ABC BANK
             </SocialLogo>
 
             <WebsiteRights>
               ABC BANK {new Date().getFullYear()} <br />
               All rights reserved.
-            </WebsiteRights>
+            </WebsiteRights>*/}
             <SocialIcons>
               <SocialIconLink
                 href="https://www.facebook.com"
