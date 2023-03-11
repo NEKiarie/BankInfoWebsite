@@ -19,4 +19,5 @@ As a user, I can:
    
 2. Sign up and create an Account as a new user.
 
-## Live url link: ("https://abcbankproject.netlify.app")
+## Live url link: https://abcbankproject.netlify.app
+
